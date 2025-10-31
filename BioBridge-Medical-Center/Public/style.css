@@ -1,0 +1,45 @@
+html,
+body {
+  overflow-y: hidden;
+}
+
+.form-box {
+  display: none;
+}
+
+.form-box.active {
+  display: block;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+input,
+select,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+header img {
+  max-width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: gray;
+}

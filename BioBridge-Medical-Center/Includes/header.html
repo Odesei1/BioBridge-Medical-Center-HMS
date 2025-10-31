@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioBridge Medical Center</title>
+
+    <!-- 🩺 Favicon (PNG version) -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../Assets/BioBridge_Medical_Center_Logo.png"
+    />
+
+    <!-- Optional custom CSS -->
+    <link rel="stylesheet" href="/BIOBRIDGE-MEDICAL-CENTER/style.css" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen"></body>
+
+  <script>
+    // Prevent user from going back after logout
+    window.history.pushState(null, null, window.location.href);
+    window.onpopstate = function () {
+      window.location.replace("../index.php");
+    };
+  </script>
+</html>
